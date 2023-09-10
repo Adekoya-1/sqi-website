@@ -1,0 +1,94 @@
+.logo{
+  width: 80px;
+}
+.bor{
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.log{
+  width: 30%;
+  /* background-color: gold; */
+}
+
+.downs{
+  width: 70%;
+  /* background-color: yellow; */
+  gap: 20px;
+  justify-content: space-around;
+  /* overflow: hidden; */
+}
+
+  .drops{
+  position: relative;
+
+}
+
+.drop{
+height: 50px;
+cursor:pointer;
+}
+.drop li{
+  text-decoration: none;
+  width: 100%;
+  height: 8.5vh;
+  padding-top: 2vh;
+  font-size: 14px;
+  font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif ;
+  /* background-color: red; */
+  /* text-align: center; */
+  list-style-type: none;
+  color: #081f89;
+}
+.dropdown{
+  width: max-content;
+  height: max-content;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background-color: #fff;
+  opacity: 0.75;
+  padding: 3px 20px;
+  border-top:2px solid blue;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+.drop:hover .dropdown{
+  display: block;
+}
+.drop:hover li{
+  color: rgba(78, 78, 255, 0.959);
+}
+ li:hover{
+  color: blue;
+}
+.dropdown p{
+  width: 100%;
+  margin: auto;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 28px;
+  padding: 6px;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.dropdown p:hover{
+  background-color: rgba(205, 205, 223,0.1);
+  color: gray;
+}
+
+.one{
+  width: 50%;
+  background-color: red;
+}
+
+
+.two{
+  width: 50%;
+  background-color: yellow;
+}
