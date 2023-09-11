@@ -6,13 +6,19 @@ import "font-awesome/css/font-awesome.min.css"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Study from './Study';
+import Glance from './Glance';
+import Alumni from './Alumni';
+import Grad from './Grad';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Study />
+    <App/>
+    <Study/>
+    <Glance/>
+    <Alumni/>
+    <Grad/>
   </React.StrictMode>
 );
 
